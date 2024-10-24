@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+button {
+    background-color: #4287f5;
+    color: white;
+    font-size: 1vw;
+    width: 15vw;
+    height: 3vw;
+    border: none;
+    cursor: pointer;
+}
+
+input,
+select {
+    outline: none;
+    font-size: 1vw;
+    width: 30vw;
+    height: 3vw;
+    background-color: #eeeeee;
+    color: #333233;
+    border: none;
+}
+
+input:hover,
+select:hover {
+    background-color: #d1d1d1;
+    transition: 500ms;
+}
+
+input::placeholder {
+    color: #333233;
+}
+
+.all {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+
+}
+
+button:hover {
+    background-color: #3268c0;
+    transition: 500ms;
+}
+
+.buttons_block {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.ok{
+    background-color: red;
+    width: 5vw;
+}
+
+.ok:hover{
+    background-color: rgb(197, 1, 1);
+    transition: 500ms;
+}
+
+.input_block_elem {
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+}
+
+.result_block {
+    border: solid #333233 2px;
+    width: 35vw;
+    height: 30vw;
+    overflow: auto;
+}
