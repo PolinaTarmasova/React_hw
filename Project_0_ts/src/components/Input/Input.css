@@ -1,0 +1,12 @@
+input {
+    font-family: "Montserrat-Medium-500";
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(52, 52, 52);
+    border-radius: 12px;
+}
+
+input::placeholder{
+    color: rgb(85, 85, 85);
+}

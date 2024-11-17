@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Montserrat-Medium-500";
+    src: url(../fonts/Montserrat-Medium\(500\).ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat-Medium-500";
+    color: rgb(52, 52, 52);
+    background-color: white;
+}

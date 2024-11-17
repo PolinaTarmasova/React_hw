@@ -1,0 +1,34 @@
+.reactMain {
+    margin: 50px 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.reactMain_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+}
+
+.reactMain_pullUpData {
+    border: 2px solid rgb(93, 93, 255);
+    border-radius: 20px;
+    width: 480px;
+    height: 230px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.reactMain_inputs {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.reactMain_inputs div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
